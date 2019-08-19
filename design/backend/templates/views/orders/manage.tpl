@@ -100,7 +100,7 @@
             {if $o.user_id}<a href="{"profiles.update?user_id=`$o.user_id`"|fn_url}">{/if}{$o.lastname} {$o.firstname}{if $o.user_id}</a>{/if}
             {if $o.company}<p class="muted">{$o.company}</p>{/if}
         </td>
-        <td {if $o.phone}data-th="{__("phone")}"{/if}><bdi>{$o.phone}</bdi></td>
+        <td style ="white-space: nowrap;" {if $o.phone}data-th="{__("phone")}"{/if}><bdi>{$o.phone}</bdi></td>
 
         {hook name="orders:manage_data"}{/hook}
 
