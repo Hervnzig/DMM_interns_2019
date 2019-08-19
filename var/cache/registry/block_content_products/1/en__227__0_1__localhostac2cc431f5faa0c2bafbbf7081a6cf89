@@ -1,0 +1,729 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:1963:"<script type="text/javascript" src="http://localhost/cscart/js/tygh/product_image_gallery.js?ver=4.9.3.SP1" ></script><script type="text/javascript" src="http://localhost/cscart/js/lib/owlcarousel/owl.carousel.min.js?ver=4.9.3.SP1" ></script><script type="text/javascript">
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var elm = context.find('#scroll_list_23');
+
+        $('.ty-float-left:contains(.ty-scroller-list),.ty-float-right:contains(.ty-scroller-list)').css('width', '100%');
+
+        var item = 4,
+            // default setting of carousel
+            itemsDesktop = 4,
+            itemsDesktopSmall = 3;
+            itemsTablet = 2;
+
+        if (item > 3) {
+            itemsDesktop = item;
+            itemsDesktopSmall = item - 1;
+            itemsTablet = item - 2;
+        } else if (item == 1) {
+            itemsDesktop = itemsDesktopSmall = itemsTablet = 1;
+        } else {
+            itemsDesktop = item;
+            itemsDesktopSmall = itemsTablet = item - 1;
+        }
+
+        var desktop = [1199, itemsDesktop],
+            desktopSmall = [979, itemsDesktopSmall],
+            tablet = [768, itemsTablet],
+            mobile = [479, 1];
+
+        
+        if (elm.length) {
+            elm.owlCarousel({
+                direction: 'ltr',
+                items: item,
+                itemsDesktop: desktop,
+                itemsDesktopSmall: desktopSmall,
+                itemsTablet: tablet,
+                itemsMobile: mobile,
+                                scrollPerPage: true,
+                                                autoPlay: false,
+                                lazyLoad: true,
+                slideSpeed: 400,
+                stopOnHover: true,
+                                navigation: true,
+                navigationText: ['Prev', 'Next'],
+                                pagination: false,
+                        });
+            
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:21426:"    <div class="ty-mainbox-simple-container clearfix homepage-hotdeals">
+                    <h2 class="ty-mainbox-simple-title">
+                
+                                    Hot deals
+                                
+
+            </h2>
+                <div class="ty-mainbox-simple-body">
+
+        
+
+
+<!-- Inline script moved to the bottom of the page -->
+
+
+<div id="scroll_list_23" class="owl-carousel ty-scroller-list grid-list ty-scroller-advanced">
+            
+        <div class="ty-scroller-list__item">
+                                                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left">
+                                        <form action="http://localhost/cscart/" method="post" name="product_form_23000277" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[277][product_id]" value="277" />
+
+
+                    <div class="ty-grid-list__image">
+                                                            <span class="ty-discount-label cm-reload-23000277" id="discount_label_update_23000277">
+            <span class="ty-discount-label__item" id="line_prc_discount_value_23000277"><span class="ty-discount-label__value" id="prc_discount_value_label_23000277">Save 60%</span></span>
+        <!--discount_label_update_23000277--></span>
+    
+
+                        
+
+
+<div class="ty-center-block">
+    <div class="ty-thumbs-wrapper owl-carousel cm-image-gallery" data-ca-items-count="1" data-ca-items-responsive="true" id="icons_23000277">
+                    <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost/cscart/apparel/mens-clothing/t-shirt/">
+        <img class="ty-pict     cm-image" id="det_img_23000277"  src="http://localhost/cscart/images/thumbnails/150/150/detailed/1/t-6.jpg" alt="" title=""  />
+
+    </a>
+
+            </div>
+                                            <div class="cm-gallery-item cm-item-gallery">
+                    <a href="http://localhost/cscart/apparel/mens-clothing/t-shirt/">
+                        <img class="ty-pict   lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/150/150/detailed/1/t-13.jpg" alt="" title=""  />
+
+                    </a>
+                </div>
+                        </div>
+</div>
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>                                    
+    <span class="cm-reload-23000277" id="name_update_23000277">
+                    <input type="hidden" name="appearance[show_trunc_name]" value="1" />
+            <a href="http://localhost/cscart/apparel/mens-clothing/t-shirt/" class="product-title" title="T-shirt" >T-shirt</a>            <!--name_update_23000277--></span>
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000277" id="old_price_update_23000277">
+            
+                            <span class="ty-list-price ty-nowrap" id="line_list_price_23000277"><span class="ty-strike"><bdi><span class="ty-list-price ty-nowrap">$</span><span id="sec_list_price_23000277" class="ty-list-price ty-nowrap">75.00</span></bdi></span></span>
+                        
+
+        <!--old_price_update_23000277--></span>
+    
+                                                            <span class="cm-reload-23000277 ty-price-update" id="price_update_23000277">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000277"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000277" class="ty-price-num">30.00</span></bdi></span>
+                            
+
+                        <!--price_update_23000277--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+
+    
+
+
+                        </div>
+                    
+                    <div class="ty-grid-list__control">
+                        
+                                            </div>
+
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8c15dbe34ffd1589870fb7330eb0f69e" /></form>
+
+                </div>
+                    </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                                                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left">
+                                        <form action="http://localhost/cscart/" method="post" name="product_form_23000247" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[247][product_id]" value="247" />
+
+
+                    <div class="ty-grid-list__image">
+                                                    
+
+                        
+
+
+        <a href="http://localhost/cscart/electronics/computers/tablets/nokia-n1-pad-7.9-quad-core-64bit-2.3ghz-2gb-32gb-android-5.0/">
+        <img class="ty-pict     cm-image" id="det_img_23000247"  src="http://localhost/cscart/images/thumbnails/150/150/detailed/1/nokia_n1_perspectives_-_app.jpg" alt="" title=""  />
+
+    </a>
+
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>
+            <a href="http://localhost/cscart/electronics/computers/tablets/nokia-n1-pad-7.9-quad-core-64bit-2.3ghz-2gb-32gb-android-5.0/" class="product-title" title="Nokia N1 Pad 7.9&quot; Quad-Core 64bit 2.3GHz 2GB 32GB Android 5.0" >Nokia N1 Pad 7.9" Quad-Core 64bit 2.3GHz ...</a>    
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000247" id="old_price_update_23000247">
+            
+                        
+
+        <!--old_price_update_23000247--></span>
+    
+                                                            <span class="cm-reload-23000247 ty-price-update" id="price_update_23000247">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000247"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000247" class="ty-price-num">329.49</span></bdi></span>
+                            
+
+                        <!--price_update_23000247--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+
+    
+
+
+                        </div>
+                    
+                    <div class="ty-grid-list__control">
+                        
+                                            </div>
+
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8c15dbe34ffd1589870fb7330eb0f69e" /></form>
+
+                </div>
+                    </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                                                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left">
+                                        <form action="http://localhost/cscart/" method="post" name="product_form_23000248" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[248][product_id]" value="248" />
+
+
+                    <div class="ty-grid-list__image">
+                                                    
+
+                        
+
+
+        <a href="http://localhost/cscart/video-games/x-box-one/x-box-one/">
+        <img class="ty-pict     cm-image" id="det_img_23000248"  src="http://localhost/cscart/images/thumbnails/150/150/detailed/1/i.jpg" alt="" title=""  />
+
+    </a>
+
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>
+            <a href="http://localhost/cscart/video-games/x-box-one/x-box-one/" class="product-title" title="X-Box One" >X-Box One</a>    
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000248" id="old_price_update_23000248">
+            
+                        
+
+        <!--old_price_update_23000248--></span>
+    
+                                                            <span class="cm-reload-23000248 ty-price-update" id="price_update_23000248">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000248"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000248" class="ty-price-num">372.27</span></bdi></span>
+                            
+
+                        <!--price_update_23000248--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+
+    
+
+
+                        </div>
+                    
+                    <div class="ty-grid-list__control">
+                        
+                                            </div>
+
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8c15dbe34ffd1589870fb7330eb0f69e" /></form>
+
+                </div>
+                    </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                                                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left">
+                                        <form action="http://localhost/cscart/" method="post" name="product_form_23000241" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[241][product_id]" value="241" />
+
+
+                    <div class="ty-grid-list__image">
+                                                    
+
+                        
+
+
+        <a href="http://localhost/cscart/electronics/computers/tablets/apple-ipad-with-retina-display-wi-fi-32gb-white/">
+        <img class="ty-pict     cm-image" id="det_img_23000241"  src="http://localhost/cscart/images/thumbnails/150/150/detailed/0/ipad-white-1.jpg" alt="" title=""  />
+
+    </a>
+
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>
+            <a href="http://localhost/cscart/electronics/computers/tablets/apple-ipad-with-retina-display-wi-fi-32gb-white/" class="product-title" title="Apple® - iPad® with Retina® display Wi-Fi - 32GB - White" >Apple® - iPad® with Retina® display Wi-Fi...</a>    
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000241" id="old_price_update_23000241">
+            
+                        
+
+        <!--old_price_update_23000241--></span>
+    
+                                                            <span class="cm-reload-23000241 ty-price-update" id="price_update_23000241">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000241"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000241" class="ty-price-num">499.00</span></bdi></span>
+                            
+
+                        <!--price_update_23000241--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+
+    
+
+
+                        </div>
+                    
+                    <div class="ty-grid-list__control">
+                        
+                                            </div>
+
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8c15dbe34ffd1589870fb7330eb0f69e" /></form>
+
+                </div>
+                    </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                                                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left">
+                                        <form action="http://localhost/cscart/" method="post" name="product_form_23000244" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[244][product_id]" value="244" />
+
+
+                    <div class="ty-grid-list__image">
+                                                    
+
+                        
+
+
+        <a href="http://localhost/cscart/electronics/computers/desktops/packard-bell-onetwo/">
+        <img class="ty-pict     cm-image" id="det_img_23000244"  src="http://localhost/cscart/images/thumbnails/150/150/detailed/1/pocket_bell.jpg" alt="" title=""  />
+
+    </a>
+
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>
+            <a href="http://localhost/cscart/electronics/computers/desktops/packard-bell-onetwo/" class="product-title" title="Packard Bell OneTwo" >Packard Bell OneTwo</a>    
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000244" id="old_price_update_23000244">
+            
+                        
+
+        <!--old_price_update_23000244--></span>
+    
+                                                            <span class="cm-reload-23000244 ty-price-update" id="price_update_23000244">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000244"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000244" class="ty-price-num">729.99</span></bdi></span>
+                            
+
+                        <!--price_update_23000244--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+
+    
+
+
+                        </div>
+                    
+                    <div class="ty-grid-list__control">
+                        
+                                            </div>
+
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8c15dbe34ffd1589870fb7330eb0f69e" /></form>
+
+                </div>
+                    </div>
+        
+
+            
+        <div class="ty-scroller-list__item">
+                                                                
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="ty-grid-list__item ty-quick-view-button__wrapper ty-left">
+                                        <form action="http://localhost/cscart/" method="post" name="product_form_23000245" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php" />
+<input type="hidden" name="product_data[245][product_id]" value="245" />
+
+
+                    <div class="ty-grid-list__image">
+                                                    
+
+                        
+
+
+        <a href="http://localhost/cscart/electronics/cell-phones/apple-iphone/apple-iphone-5c-32gb-cell-phone-green/">
+        <img class="ty-pict     cm-image" id="det_img_23000245"  src="http://localhost/cscart/images/thumbnails/150/150/detailed/1/iphone_green.png" alt="" title=""  />
+
+    </a>
+
+
+                    </div>
+
+                    <div class="ty-grid-list__item-name">
+                        
+                                                <bdi>
+            <a href="http://localhost/cscart/electronics/cell-phones/apple-iphone/apple-iphone-5c-32gb-cell-phone-green/" class="product-title" title="Apple - iPhone 5c 32GB Cell Phone - Green" >Apple - iPhone 5c 32GB Cell Phone - Green</a>    
+
+</bdi>
+                    </div>
+
+                                            <div class="ty-grid-list__price ">
+                                                                    <span class="cm-reload-23000245" id="old_price_update_23000245">
+            
+                        
+
+        <!--old_price_update_23000245--></span>
+    
+                                                            <span class="cm-reload-23000245 ty-price-update" id="price_update_23000245">
+        <input type="hidden" name="appearance[show_price_values]" value="1" />
+        <input type="hidden" name="appearance[show_price]" value="1" />
+                                
+                                    <span class="ty-price" id="line_discounted_price_23000245"><bdi><span class="ty-price-num">$</span><span id="sec_discounted_price_23000245" class="ty-price-num">699.00</span></bdi></span>
+                            
+
+                        <!--price_update_23000245--></span>
+
+
+                                                            
+
+                                                            
+                        </div>
+                    
+                                                                <div class="grid-list__rating">
+                                
+    
+
+    
+
+
+                        </div>
+                    
+                    <div class="ty-grid-list__control">
+                        
+                                            </div>
+
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8c15dbe34ffd1589870fb7330eb0f69e" /></form>
+
+                </div>
+                    </div>
+        
+
+    </div>
+
+<!-- Inline script moved to the bottom of the page -->
+<!-- Inline script moved to the bottom of the page -->
+
+</div>
+    </div>
+";}s:6:"expiry";i:0;}

@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /release-4.9.3/addons/product_variations.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2019-02-01 06:13\n"
+
+msgctxt "Addons::name::product_variations"
+msgid "Product Variations [Beta]"
+msgstr "Вариації товарів [Beta]"
+
+msgctxt "Addons::description::product_variations"
+msgid "Variants of a product that comes in more than one option, such as color or size."
+msgstr "Варіанти товару, що включають в себе більше однієї опції, як колір або розмір."
+
+msgctxt "Languages::product_variations.btn_generate"
+msgid "Generate variations"
+msgstr "Генерувати варіації"
+
+msgctxt "Languages::product_variations.generating.title"
+msgid "Generating variations: [product]"
+msgstr "Генерування варіацій: [product]"
+
+msgctxt "Languages::product_variations.generating.select_variants"
+msgid "Select variants"
+msgstr "Оберіть варіанти"
+
+msgctxt "Languages::product_variations.selected_default"
+msgid "Selected by default"
+msgstr "Обрано за замовчуванням"
+
+msgctxt "Languages::product_variations.selected_default_tooltip"
+msgid "The variation which should be selected by default in the Storefront"
+msgstr "Варіація, яка має відображатися на вітрині і бути обраною за замовчуванням при переході на сторінку товара"
+
+msgctxt "Languages::product_variations.product_type"
+msgid "Product variations"
+msgstr "Вариації товара"
+
+msgctxt "Languages::product_variations.product_type.simple"
+msgid "Simple product"
+msgstr "Простий товар"
+
+msgctxt "Languages::product_variations.product_type.variation"
+msgid "Product variation"
+msgstr "Вариація товара"
+
+msgctxt "Languages::product_variations.product_type.configurable"
+msgid "Configurable product"
+msgstr "Настроюваний товар"
+
+msgctxt "Languages::product_variations.parent_product"
+msgid "Parent product"
+msgstr "Батьківський товар"
+
+msgctxt "Languages::product_variations.variations"
+msgid "Variations"
+msgstr "Варіації"
+
+msgctxt "Languages::product_variations.variation_of_product"
+msgid "Variation of <a href=\"[url]\">[product]</a>"
+msgstr "Варіація <a href=\"[url]\">[product]</a>"
+
+msgctxt "Languages::product_variations.error.product_variation_must_have_variation_options"
+msgid "The variation_options field is required for a variation product"
+msgstr "Поле variation_options є обов'язковим для варіації товара"
+
+msgctxt "Languages::product_variations.error.product_variation_must_have_parent_product"
+msgid "A product variation must have a parent product"
+msgstr "У варіації товара має бути батьківський товар"
+
+msgctxt "Languages::product_variations.error.invalid_variation_options_array"
+msgid "The variation_options array is invalid"
+msgstr "Масив variation_options невірний"
+
+msgctxt "Languages::product_variations.error.product_variation_already_exists"
+msgid "A product variation with same variation_code already exists"
+msgstr "Варіація товару з тим же значенням variation_code уже існує"
+
+msgctxt "Languages::product_variations.convert_to_configurable_product"
+msgid "Convert to configurable product"
+msgstr "Перетворити в налаштовуємий товар"
+
+msgctxt "Languages::product_variations.confirm_convert_to_configurable_product"
+msgid "You can't undo this action unless you restore the database from backup or re-create this product as a simple product manually. The option combinations and exceptions (allowed/forbidden combinations) of this product will be lost. Are you sure you want to proceed?"
+msgstr "Скасувати дану дію можна, тільки відновивши базу даних з резервної копії або заново створивши даний товар як простий. Комбінації опцій і виключення (дозволені / заборонені комбінації) будуть видалені. Ви впевнені, що хочете продовжити?"
+
+msgctxt "Languages::product_variations.convert_to_configurable_product_success"
+msgid "Product successfully converted"
+msgstr "Товар було успішно перетворено"
+
+msgctxt "Languages::product_variations.error.configurable_product_must_have_file"
+msgid "A downloadable configurable product must have at least one active file for sale."
+msgstr "Цифровий налаштовуємий товар повинен мати хоча б один файл, виставлений на продаж."
+
+msgctxt "Languages::product_variations.variations_filling"
+msgid "Variations"
+msgstr "Варіації"
+
+msgctxt "Languages::product_variations.variations_list"
+msgid "Variations"
+msgstr "Варіації"
+
+msgctxt "Languages::variations_in_stock"
+msgid "Only \"in stock\" products"
+msgstr "Відображати лише товари \"в наявності\""
+
+msgctxt "Languages::product_variations.variation_code"
+msgid "Variation code"
+msgstr "Код варіації"
+
+msgctxt "Languages::product_variations.hide_add_to_wishlist_button"
+msgid "Hide add to wish list button"
+msgstr "Заховати кнопку \"В обране\""
+
+msgctxt "Languages::product_variations.cannot_generate_variations_reason_options"
+msgid "Cannot generate product variations. You may have removed some product options (or disabled inventory tracking for these options). Some existing variations depend on these options. Please roll back your changes to options or remove existing variations of the product and try to generate them again."
+msgstr "Не вдалося створити варіаціями товару. Можливо, деякі опції товару, що необхідні для створення варіацій було видалено, або їх наявність вже не враховується. Відмініть всі зміни, що застосовані до опцій, або видаліть існуючі варіації і спробуйте згенерувати їх знову."
+
+msgctxt "Languages::product_variations.cannot_use_all_options_reason_existent_variations"
+msgid "Cannot use the following options to generate variations: <b>[option_names]</b>. Some existing  variations of the product do not use these options. Please remove existing variations and generate them again to use these options."
+msgstr "Неможливо використовувати такі опції для створення варіацій: <b>[option_names]</b>. Деякі з існуючих варіацій товару не використовують ці опції. Видаліть наявні варіаціїі і згенеруйте їх знову, використовуючі вказані опції."
+
+msgctxt "Languages::product_variations.variation"
+msgid "Variation"
+msgstr "Варіація"
+
+msgctxt "Languages::product_variations.update_name"
+msgid "Update name"
+msgstr "Оновити назву"
+
+msgctxt "Languages::product_variations.add_variations"
+msgid "Add variations"
+msgstr "Додати варіації"
+
+msgctxt "Languages::product_variations.cannot_change_variation_options"
+msgid "Product options cannot be changed"
+msgstr "Неможливо змінити опції товару"
+
+msgctxt "Languages::product_variations.please_select_combinations"
+msgid "Please select combinations"
+msgstr "Будь ласка, оберіть комбінації"
+
+msgctxt "Languages::product_variations.variations_list_block_name"
+msgid "Variations list"
+msgstr "Список варіацій"
+
+msgctxt "Languages::product_variations.variations_list_tab_name"
+msgid "View all options as list"
+msgstr "Переглянути список опцій"
+
+msgctxt "Languages::product_variations.exim_error_conf_product_cannot_have_variation_options"
+msgid "Couldn't import product [product_code]: configurable product can't have variation options."
+msgstr "Не вдалося імпортувати товар [product_code]: у вариацій налаштовуваного товару не повинно бути опцій."
+
+msgctxt "Languages::product_variations.exim_error_cannot_find_parent_for_variation"
+msgid "Couldn't import product [product_code]: the parent product for this variation doesn't exist or is located in a wrong place in the imported file."
+msgstr "Не вдалося імпортувати товар [product_code]: у поточної варіації відсутній батьківський товар, або його розташовано у невірному місці файла, що імпортується."
+
+msgctxt "Languages::product_variations.exim_error_option_is_not_available"
+msgid "Couldn't import product [product_code]: option \"[option_name]\" is not available for this product variation."
+msgstr "Неможливо імпортувати товар [product_code]: опція \"[option_name]\" недоступна для даної варіації товару."
+
+msgctxt "Languages::product_variations.exim_error_invalid_variation_options_format"
+msgid "Couldn't import product [product_code]: invalid format of variation options was provided for this variation."
+msgstr "Неможливо імпортувати товар [product_code]: для даної варіації було задано невірний формат опцій."
+
+msgctxt "Languages::product_variations.exim_error_invalid_variation_options_provided"
+msgid "Couldn't import product [product_code]: invalid variation options were provided for this variation."
+msgstr "Не вдалось імпортувати товар [product_code]: для даної варіації були вказані невірні опції."
+
+msgctxt "Languages::product_variations.exim_error_variation_with_provided_options_exists"
+msgid "Couldn't import product [product_code]: a variation with these variation options already exists."
+msgstr "Не вдалось імпортувати товар [product_code]: варіаця з даними опціями вже існує."
+
+msgctxt "Languages::product_variations.exim_error_variation_cannot_have_empty_variation_options"
+msgid "Couldn't import product [product_code]: a variation must have variation options specified."
+msgstr "Не вдалось імпортувати товар [product_code]: у варіації повинні бути вказані опції."
+
+msgctxt "Languages::product_variations.exim_error_cannot_update_product_options_for_variation_or_parent"
+msgid "Couldn't import options for product [product_code]: options can't be updated for a variation or for a product that has at least one variation."
+msgstr "Не вдалось імпортувати товар [product_code]: неможливо оновити опції у варіації або товару, якщо у нього є хоча б одна варіація."
+
+msgctxt "Languages::product_variations.exim_error_variant_does_not_exist"
+msgid "Couldn't import product [product_code]: option \"[option_name]\" doesn't have variant \"[variant_name]\"."
+msgstr "Не вдалось імпортувати товар [product_code]: у опції \"[option_name]\" відсутній варіант \"[variant_name]\"."
+
+msgctxt "Languages::product_variations.text_exim_data_imported"
+msgid "Data is imported successfully. <br />New products - <b>[new]</b>: <ul><li>Simple: <b>[new_simple]</b></li><li>Configurable: <b>[new_conf]</b></li><li>Variations: <b>[new_var]</b></li></ul>Updated products - <b>[exist]</b>: <ul><li>Simple: <b>[upd_simple]</b></li><li>Configurable: <b>[upd_conf]</b></li><li>Variations: <b>[upd_var]</b></li></ul>Skipped products - <b>[skipped]</b>: <ul><li>Simple: <b>[skipped_simple]</b></li><li>Configurable: <b>[skipped_conf]</b></li><li>Variations: <b>[skipped_var]</b></li></ul>Total - <b>[total]</b>."
+msgstr "Дані успішно імпортовано.<br />нові продукти - <b>[new]</b>: <ul><li>прості: <b>[new_simple]</b></li><li>налаштовувані: <b>[new_conf]</b></li><li>варіації:<b>[new_var]</b></li></ul>Оновлені товари - <b>[exist]</b>:<ul><li>прості: <b>[upd_simple]</b></li><li>налаштовувані:<b>[upd_conf]</b></li><li>варіації: <b>[upd_var]</b></li></ul>пропущено продуктів - <b>[skipped]</b>: <ul><li>прості: <b>[skipped_simple]</b></li><li>налаштовувані: <b>[skipped_conf]</b></li><li>варіації: <b>[skipped_var]</b></li></ul>всього - <b>[total]</b>."
+
+msgctxt "Languages::variation_options"
+msgid "Variation options"
+msgstr "Опції варіацій"
+
+msgctxt "Languages::product_variations.cannot_remove_options_that_used_for_variation"
+msgid "Cannot delete option \"[option_name]\" because it is used in product variations. If you'd like to delete this option, please delete the <a href=\"[search_link]\">product variations</a> that use this option first."
+msgstr "Не вдалося видалити опцію \"[option_name]\", оскільки вона використовується для створення варіацій. Щоб видалити цю опцію, потрібно спочатку видалити <a href=\"[search_link]\">варіації,</a> в яких вона використовується."
+
+msgctxt "Languages::product_variations.cannot_disable_options_that_used_for_variation"
+msgid "Cannot disable option \"[option_name]\" because it is used in product variations. If you'd like to disable this option, please delete the <a href=\"[search_link]\">product variations</a> that use this option first."
+msgstr "Не вдалося вимкнути опцію \"[option_name]\", оскільки вона використовується для створення варіацій. Щоб вимкнути цю опцію, потрібно спочатку видалити <a href=\"[search_link]\">варіації,</a> в яких вона використовується."
+
+msgctxt "Languages::product_variations.show_variation_thumbnails"
+msgid "Show variation thumbnails"
+msgstr "Показувати іконки варіацій"
+
+msgctxt "Languages::product_variations.show_product_code"
+msgid "Show product code"
+msgstr "Показати код товару"
+
+msgctxt "Languages::tt_addons_product_variations_hooks_products_update_product_tracking_override_inventory"
+msgid "Track in stock product quantity. Enable the \"Enable inventory tracking\" option (Settings -> General) to modify."
+msgstr "Відстежувати кількість товару в наявності. Увімкніть настройку «Включити відстеження кількості товарів на складі» (Установки → Загальні), щоб змінити значення."
+
+msgctxt "Languages::tt_addons_product_variations_hooks_products_categories_section_post_categories"
+msgid "Categories to be displayed in the navigation breadcrumbs."
+msgstr "Категорії, які будуть відображатися в навігації («хлібних крихтах»)."
+
+msgctxt "Languages::product_variations.inventory_notice"
+msgid "This product doesn't have any options suitable for creating variations. Please make sure that the product has at least one active option with the ticked <b>Inventory</b> checkbox, and variants exist for that option."
+msgstr "У даного товару відсутні опції, які підходять для створення варіацій. Переконайтеся, що у товару включена хоча б одна опція з проставленою галочкою <b>\"Розрахунок кількості товару в наявності\"</b>, і у цій опції є варіанти."
+
+msgctxt "Languages::product_variations.error.cannot_disable_option_variant"
+msgid "Variant \"[variant_name]\" can't be disabled because some existing product variations use it."
+msgstr "Неможливо вимкнути варіант \"[variant_name]\", бо він використовується в існуючих варіаціях товарів."
+
+msgctxt "Languages::product_variations.error.cannot_remove_option_variant"
+msgid "Variant \"[variant_name]\" can't be removed because some existing product variations use it."
+msgstr "Неможливо видалити варіант \"[variant_name]\", бо він використовується в існуючих варіаціях товарів."
+
+msgctxt "Languages::is_default_product_variation"
+msgid "Is default product variation"
+msgstr "Є варіацією, що обрано за замовчуванням"
+
+msgctxt "Languages::product_variations.product_groups.create"
+msgid "Create product group"
+msgstr "Створити групи товарів"
+
+msgctxt "Languages::product_variations.product_groups.create_tooltip"
+msgid "Allow customers to switch between similar products by selecting the desired value of their common features."
+msgstr "Дозволяє клієнтам переключатися між аналогічними товарами, вибравши потрібне значення їх загальних ознак."
+
+msgctxt "Languages::product_variations.product_groups.update"
+msgid "Add products to group"
+msgstr "Додати товари до групи"
+
+msgctxt "Languages::product_variations.product_groups.delete"
+msgid "Delete product group"
+msgstr "Видалити групи товарів"
+
+msgctxt "Languages::product_variations.product_groups.delete_product"
+msgid "Delete product from group"
+msgstr "Видалити Товар з групи"
+
+msgctxt "Languages::product_variations.product_groups.tab"
+msgid "Product group"
+msgstr "Група товарыв"
+
+msgctxt "Languages::product_variations.product_groups.select_features"
+msgid "Select features"
+msgstr "Обрати ознаки"
+
+msgctxt "Languages::product_variations.product_groups.select_features_tooltip"
+msgid "Customers will be able to choose the desired values for the selected features on the product page. This will redirect them to a similar product that has these feature values, but only if the product belongs to the group. A product can be added to the group only if it has a value for each of the selected features."
+msgstr "Клієнти зможуть вибрати потрібні значення для вибраних ознак на сторінці продукту. Це переспрямовуватиме їх на аналогічний продукт, який має цей варіант, але лише якщо продукт належить до групи. Товар може бути доданий до групи лише в тому випадку, якщо він має варіантдля кожної з вибраних ознак."
+
+msgctxt "Languages::product_variations.product_groups.add_product_to_group"
+msgid "Add products to group and close"
+msgstr "Додати товари до групи та закрити"
+
+msgctxt "Languages::product_variants.purpose"
+msgid "Purpose"
+msgstr "Мета"
+
+msgctxt "Languages::ttc_product_variants.purpose"
+msgid "Determines where the feature will appear, how it will look, and what you'll be able to do with it."
+msgstr "Визначає, де з'явиться ознака, як це буде виглядати, і що ви будете в змозі зробити з нею."
+
+msgctxt "Languages::product_variants.purpose.general"
+msgid "Show product features to customers"
+msgstr "Показати клієнтам ознаки товару"
+
+msgctxt "Languages::product_variants.purpose.group_products"
+msgid "Switch between similar products"
+msgstr "Переключення між подібними товарами"
+
+msgctxt "Languages::product_variations.product_groups.no_available_features"
+msgid "This product doesn't have features that allow grouping products. Please make sure that:<ol><li>You have created at least one feature with <b>Purpose:</b> <i>Switch between similar products</i>.</li><li>You have specified the value of that feature for the product.</li></ol>"
+msgstr "Цей товар не має ознак, які дозволяють групувати товари. Будь ласка, переконайтеся, що: <ol><li>Ви створили принаймні одну ознаку з <b>метою:</b> <i>Переключення між подібними продуктами</i>.</li><li>Ви вказали значення цієї функції для продукту.</li></ol>"
+

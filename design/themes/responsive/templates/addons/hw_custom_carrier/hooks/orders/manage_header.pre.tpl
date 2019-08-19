@@ -1,0 +1,1 @@
+<th width="10%"><span>{__('track_on_carrier_site')}</span></th>

@@ -1,0 +1,31 @@
+a:2:{s:4:"data";a:1:{s:7:"content";s:1460:"    <div class="ty-mainbox-simple-container clearfix">
+                    <h2 class="ty-mainbox-simple-title">
+                
+                                    Blog
+                                
+
+            </h2>
+                <div class="ty-mainbox-simple-body">
+    <div class="ty-blog-text-links">
+        <ul>
+                            <li class="ty-blog-text-links__item">
+                    <div class="ty-blog-text-links__date">11/11/2014</div>
+                    <a href="http://localhost/cscart/blog/paypal/" class="ty-blog-text-links__a">PayPal</a>
+                </li>
+                            <li class="ty-blog-text-links__item">
+                    <div class="ty-blog-text-links__date">11/09/2014</div>
+                    <a href="http://localhost/cscart/blog/embed-merchium-into-a-custom-website/" class="ty-blog-text-links__a">Embed Merchium into a custom website</a>
+                </li>
+                            <li class="ty-blog-text-links__item">
+                    <div class="ty-blog-text-links__date">11/07/2014</div>
+                    <a href="http://localhost/cscart/blog/merchium-marketplace-opens-for-partners/" class="ty-blog-text-links__a">Merchium Marketplace Opens for Partners</a>
+                </li>
+                    </ul>
+
+                <div class="ty-mtb-s ty-uppercase">
+            <a href="http://localhost/cscart/blog/">view all</a>
+        </div>
+            </div>
+</div>
+    </div>
+";}s:6:"expiry";i:0;}

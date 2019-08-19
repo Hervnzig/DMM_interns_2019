@@ -1,0 +1,101 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "LanguageName"
+msgid "Localized language name"
+msgstr "English"
+
+msgctxt "Addons::name::hw_custom_carrier"
+msgid "Custom Shipment Carriers & Tracking Number Process"
+msgstr "Custom Shipment Carriers & Tracking Number Process"
+
+msgctxt "Addons::description::hw_custom_carrier"
+msgid "Add new tracking carriers and help your customers to find informations about his package fast"
+msgstr "Add new tracking carriers and help your customers to find informations about his package fast"
+
+msgctxt "Languages::shipping_carriers"
+msgid "Shipping carriers"
+msgstr "Shipping carriers"
+
+msgctxt "Languages::shippings_tracking_url"
+msgid "Shipping tracking URL"
+msgstr "Shipping tracking URL"
+
+msgctxt "Languages::shippings_tracking_url_info"
+msgid "Please replace tracking number from url with <strong style='color:red'>[TRACKING_NUMBER]</strong>"
+msgstr "Please replace tracking number from url with <strong style='color:red'>[TRACKING_NUMBER]</strong>"
+
+msgctxt "Languages::shippings_carrier_test"
+msgid "Shipping tracking URL test"
+msgstr "Shipping tracking URL test"
+
+msgctxt "Languages::shippings_tracking_code"
+msgid "Tracking number"
+msgstr "Tracking number"
+
+msgctxt "Languages::add_carrier"
+msgid "Add carrier"
+msgstr "Add carrier"
+
+msgctxt "Languages::export_carriers"
+msgid "Export carriers"
+msgstr "Export carriers"
+
+msgctxt "Languages::import_carriers"
+msgid "Import carriers"
+msgstr "Import carriers"
+
+msgctxt "Languages::import_carriers_text"
+msgid "Carriers extend the functionality of your store.<br/>You can install new carriers by picking a xml format archive and clicking Upload & install."
+msgstr "Carriers extend the functionality of your store.<br/>You can install new carriers by picking a xml format archive and clicking Upload & install."
+
+msgctxt "Languages::import_carriers_done"
+msgid "Import successfully completed."
+msgstr "Import successfully completed."
+
+msgctxt "Languages::carrier_deleted"
+msgid "Carrier has been successfully deleted."
+msgstr "Carrier has been successfully deleted."
+
+msgctxt "Languages::disable_cscart_carriers"
+msgid "Disable default CS-Cart carriers"
+msgstr "Disable default CS-Cart carriers"
+
+msgctxt "Languages::enable_cscart_carriers"
+msgid "Enable default CS-Cart carriers"
+msgstr "Enable default CS-Cart carriers"
+
+msgctxt "SettingsSections::hw_custom_carrier::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::hw_custom_carrier::hide_default_carriers"
+msgid "Hide default carriers"
+msgstr "Hide default carriers"
+
+msgctxt "SettingsTooltips::hw_custom_carrier::hide_default_carriers"
+msgid "The add-on will only hide the default carriers in backend and you can always bring themback by unchecking this option"
+msgstr "The add-on will only hide the default carriers in backend and you can always bring themback by unchecking this option"
+
+msgctxt "SettingsSections::hw_custom_carrier::license_updates"
+msgid "License & Updates"
+msgstr "License & Updates"
+
+msgctxt "SettingsOptions::hw_custom_carrier::license"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "Languages::hw_license_generator"
+msgid "[ Click here to generate license key ]"
+msgstr "[ Click here to generate license key ]"
+
+msgctxt "SettingsTooltips::hw_custom_carrier::license"
+msgid "To be able to upgrade to a new version using CS-Cart Upgrade Center you will need have a valid license key."
+msgstr "To be able to upgrade to a new version using CS-Cart Upgrade Center you will need have a valid license key."
+
+msgctxt "SettingsSections::hw_custom_carrier::support"
+msgid "Hungryweb Support & FAQ's"
+msgstr "Hungryweb Support & FAQ's"

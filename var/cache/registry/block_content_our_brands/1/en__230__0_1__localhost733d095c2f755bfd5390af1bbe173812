@@ -1,0 +1,343 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:1721:"<script type="text/javascript">
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var elm = context.find('#scroll_list_27');
+
+        $('.ty-float-left:contains(.ty-scroller-list),.ty-float-right:contains(.ty-scroller-list)').css('width', '100%');
+
+        var item = 7,
+            // default setting of carousel
+            itemsDesktop = 4,
+            itemsDesktopSmall = 3;
+            itemsTablet = 2;
+
+        if (item > 3) {
+            itemsDesktop = item;
+            itemsDesktopSmall = item - 1;
+            itemsTablet = item - 2;
+        } else if (item == 1) {
+            itemsDesktop = itemsDesktopSmall = itemsTablet = 1;
+        } else {
+            itemsDesktop = item;
+            itemsDesktopSmall = itemsTablet = item - 1;
+        }
+
+        var desktop = [1199, itemsDesktop],
+            desktopSmall = [979, itemsDesktopSmall],
+            tablet = [768, itemsTablet],
+            mobile = [479, 1];
+
+        
+        if (elm.length) {
+            elm.owlCarousel({
+                direction: 'ltr',
+                items: item,
+                itemsDesktop: desktop,
+                itemsDesktopSmall: desktopSmall,
+                itemsTablet: tablet,
+                itemsMobile: mobile,
+                                scrollPerPage: true,
+                                                autoPlay: false,
+                                lazyLoad: true,
+                slideSpeed: 400,
+                stopOnHover: true,
+                                navigation: true,
+                navigationText: ['Prev', 'Next'],
+                                pagination: false,
+                        });
+            
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:17601:"    <div class="ty-mainbox-simple-container clearfix homepage-our-brands">
+                    <h2 class="ty-mainbox-simple-title">
+                
+                                    Brands
+                                
+
+            </h2>
+                <div class="ty-mainbox-simple-body">
+
+<div id="scroll_list_27" class="owl-carousel">
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/abbey-road-studios/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/79085903.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/acer/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/250px-Acer_2011.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/adidas/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Adidas_Logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/aiko/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/aiko_safe_t.gif" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/apple/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Apple_logo_black.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/arc-system-works/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Arc_system_works.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/asus/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/200px-ASUS_Logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/camelback/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/CamelBak_Logo.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/capcom/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/220px-Capcom_logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/casio/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Casio_logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/cleveland/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Clevelandgolf_logo.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/cobra/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/cobra-logo.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/concord-records/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Concordjazzlogo.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/creative/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Creative_Technology_logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/d-link/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/250px-D-Link.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/electronic-arts-ea/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/ea.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/entertainment-one-ltd/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Entertainment_One_logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/garmin/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/225px-Garmin_logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/gopro/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/gopro-logo-whitebgd.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/hewlett-packard/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/150px-HP_logo_2012.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/htc-en/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/200px-Htc_new_logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/intel/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Intel-logo.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/kenwood/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/175px-Company-Logo-of-Kenwood001.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/koss/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/koss_logo.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/lg/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/LG_Logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/microsoft-en/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/664187.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/montblanc/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Montblanc_logo.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/motorola-en/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/250px-Motorola.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/namco/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/230px-Namco_logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/namco-bandai-games/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Namco_Bandai_Games_Logo.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/nike/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/200px-Logo_NIKE.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/nikon/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Nikon_logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/nintendo/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/nintendo.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/nokia-en/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Nokia_wordmark.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/panasonic/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Panasonic_logo_(Blue).svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/pioneer/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/230px-Pioneer_logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/quartet-manufacturing/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Quartet_Logo_jpg.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/razer/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/1.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/rhino/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Rhinologo_whiteonwhite.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/roadrunner-records/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/225px-Roadrunner_Records_Logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/samsung-en/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Samsung_Logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/sandisk/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/SanDisk_Logo_2007.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/sony/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Sony_logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/sucker-punch-productions/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/1.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/swingline/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Swingline_Logo.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/tissot/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Tissot_Logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/tomtom/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/190px-TomTom.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/toshiba/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/200px-Toshiba_logo.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/tp-link/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/TP-Link_logo.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/universal-music-group/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Universal_Music_Group.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/warner-bros./"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/200px-Warner_Bros.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/warner-home-video/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/200px-Warner_Bros.svg.png" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/wilson-jones/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/logo_wilsonjones.gif" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/wilson-staff/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/Wilson_Staff_Logo.jpg" alt="" title=""  />
+</a>
+            </div>
+                
+            <div class="ty-center">
+                <a href="http://localhost/cscart/yamaha/"><img class="ty-pict  ty-grayscale lazyOwl  cm-image"   data-src="http://localhost/cscart/images/thumbnails/75/75/feature_variant/1/200px-YamahaCorp.svg.png" alt="" title=""  />
+</a>
+            </div>
+    </div>
+
+<!-- Inline script moved to the bottom of the page -->
+
+</div>
+    </div>
+";}s:6:"expiry";i:0;}
